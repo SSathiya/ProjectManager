@@ -1,0 +1,14 @@
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-light">
+        <b>  Project<font color="#70ff91">Manager</font></b>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link" routerLink="/add-project">Add Project</a></li>
+        <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link" routerLink="/add-task">Add Task</a></li>
+        <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link" routerLink="/add-user">Add User</a></li>
+        <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link" routerLink="/view-task">View Task</a></li>
+      </ul>
+</nav>
+</div>
+<div class="container wrapper">
+    <router-outlet></router-outlet>
+</div>
